@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "avatar": "https://github.com/fontanive12.png",
+        "name": "Franciele Fontanive",
+        "time": "2022-10-11 10:02:00",
+        "content": [
+            { "type": "paragraph", "content": "Comentário" }
+        ],
+        "likes": 3
+    },
+    {
+        "id": 2,
+        "avatar": "https://github.com/maaschmidt.png",
+        "time": "2022-10-11 10:02:00",
+        "name": "Marcel Schmidt",
+        "content": [
+            { "type": "paragraph", "content": "Comentário" }
+        ],
+        "likes": 33
+    }
+]

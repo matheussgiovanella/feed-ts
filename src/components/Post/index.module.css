@@ -1,0 +1,109 @@
+.post {
+    width: 100%;
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--gray-300);
+    padding: 2.5rem;
+}
+
+.post > header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 1.8125rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+.avatar {
+    box-sizing: initial;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 2px solid var(--gray-800);
+    outline: 2px solid var(--green-100);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.description strong {
+    line-height: 1.6;
+}
+
+.description span {
+    color: var(--gray-500);
+    line-height: 1.6;
+}
+
+.post > header time {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    line-height: 1.6;
+}
+
+.content {
+    line-height: 1.6;
+}
+
+.content a {
+    text-decoration: none;
+    color: var(--green-100);
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.content a:hover {
+    color: var(--green-200);
+    transition: 0.2s;
+}
+
+.line {
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid var(--gray-600);
+    margin: 1.5rem 0;
+}
+
+.feedback strong {
+    line-height: 1.6;
+}
+
+.feedback textarea {
+    width: 100%;
+    height: 6rem;
+    resize: none;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: var(--gray-100);
+}
+
+.feedback textarea:focus {
+    outline: none;
+    border: 1px solid var(--green-100);
+}
+
+.feedback button {
+    color: var(--white);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    background: var(--green-100);
+    border: none;
+    transition: 0.2s
+}
+
+.feedback button:hover {
+    background: var(--green-200);
+    transition: 0.2s;
+    cursor: pointer;
+}

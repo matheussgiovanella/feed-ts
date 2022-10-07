@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "author": {
+            "avatarUrl": "https://github.com/matheussgiovanella.png",
+            "name": "Matheus Staevie Giovanella",
+            "role": "I'm currently learning Vite + React"
+        },
+        "content": [
+            { "type": "paragraph", "content": "Fala devs!!" },
+            { "type": "paragraph", "content": "Acabei de publicar novos projetos no meu github, corre aqui pra ver 🚀" },
+            { "type": "link", "content": "https://github.com/matheussgiovanella" }
+        ], 
+        "publishedAt": "2022-10-03 10:00:00",
+        "comments": [
+            
+        ]
+    },
+    {
+        "id": 2,
+        "author": {
+            "avatarUrl": "https://github.com/matheussgiovanella.png",
+            "name": "Matheus Staevie Giovanella",
+            "role": "I'm currently learning Vite + React"
+        },
+        "content": [
+            { "type": "paragraph", "content": "Fala galera!!" },
+            { "type": "paragraph", "content": "Confere o meu novo projeto lá no github" },
+            { "type": "link", "content": "https://github.com/matheussgiovanella" }
+        ],
+        "publishedAt": "2022-10-03 07:00:00",
+        "comments": [
+            {
+                "id": 1,
+                "avatar": "https://github.com/fontanive12.png",
+                "name": "Franciele Fontanive",
+                "publishedAt": "2022-10-05 10:02:00",
+                "content": [
+                    { "type": "paragraph", "content": "Comentário1" }
+                ],
+                "likes": 3
+            },
+            {
+                "id": 2,
+                "avatar": "https://github.com/maaschmidt.png",
+                "name": "Marcel Schmidt",
+                "publishedAt": "2022-10-04 10:02:00",
+                "content": [
+                    { "type": "paragraph", "content": "Comentário2" }
+                ],
+                "likes": 33
+            }
+        ]
+    }
+]

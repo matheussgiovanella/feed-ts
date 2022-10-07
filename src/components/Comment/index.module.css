@@ -1,0 +1,82 @@
+.comment article {
+    margin-top: 2.875rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.comment article img {
+    width: 4.625rem;
+    height: 3.875rem;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 1.5rem;
+}
+
+.comment article .text {
+    width: calc(100% - 1.5rem - 4.625rem);
+    height: 9.25rem;
+    padding: 1rem;
+    border-radius: 9px;
+    background: var(--gray-100);
+}
+
+.comment article .text header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment article .text header div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+.comment article .text header div time {
+    color: var(--gray-600);
+    font-size: 0.75rem;
+    margin-bottom: 0.375rem;
+}
+
+.comment article .text span {
+    color: var(--gray-600);
+    font-size: 0.875rem;
+}
+
+.comment article .text:hover a {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.comment article .text a {
+    opacity: 0;
+    transition: 0.2s;
+    text-decoration: none;
+    color: var(--gray-900);
+}
+
+.comment article .text a:hover {
+    transition: 0.2s;
+    color: var(--green-100);
+}
+
+.comment .like a {
+    text-decoration: none;
+    color: var(--gray-400);
+    transition: 0.2s;
+    margin-left: calc(8.5rem - 2.5rem);
+    user-select: none;
+}
+
+.comment .like a:hover {
+    color: var(--green-100);
+    transition: 0.2s;
+}
+
+.comment .like a i {
+    margin-top: 1.25rem;
+    margin-right: 0.9375rem;
+}
+
+.comment .like a span {
+    font-size: 0.875rem;
+}
